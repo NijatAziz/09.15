@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  .container-fluid{
+    padding: 10px;
+    background-color: #3131317a;
+    .img{
+        width: 200px;
+        img{
+            width: 100%;
+        }
+    }
+    .nav-bar{
+        ul{
+            display: flex;
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            li{
+                margin-left: 20px;
+                color: white;
+            }
+        }
+    }
+  }
+}
+
+#allgallery{
+         .text {
+            position: absolute;
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            text-align: center; 
+            color: white;
+            font-size: 100px;
+    }
+    position: absolute;
+    width: 100%;
+    .img {
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    
+   
+}
+}
+
